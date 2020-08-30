@@ -1,5 +1,5 @@
 addEventListener('load', function () {
     setTimeout(function () {
-        document.querySelector('#copyright').style.display = 'none'
+        document.getElementById('copyright').style.display = 'none'
     }, 100)
 })

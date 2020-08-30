@@ -5,27 +5,8 @@
     <title>SEOright Demo</title>
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
           name="viewport">
-    <style>
-        :root:hover .copyright {
-            display: none;
-        }
-
-        @media (hover: none) {
-            .copyright {
-                display: none;
-            }
-        }
-
-    </style>
-    <script>
-        var params = new URLSearchParams(location.search);
-        if (params.has('nojs'))
-            addEventListener('load', function () {
-                setTimeout(function () {
-                    document.querySelector('.copyright').style.display = 'none'
-                }, 100)
-            })
-    </script>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" type="nomodule"></script>
 </head>
 <body>
 <p class="copyright">Разработка —

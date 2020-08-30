@@ -21,6 +21,15 @@
         }
 
     </style>
+    <script>
+        var params = new URLSearchParams(location.search);
+        if (params.has('nojs'))
+            addEventListener('load', function () {
+                setTimeout(function () {
+                    document.querySelector('.copyright').style.display = 'none'
+                }, 100)
+            })
+    </script>
 </head>
 <body>
 <p class="copyright">Разработка —

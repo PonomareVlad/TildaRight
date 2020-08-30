@@ -1,5 +1,6 @@
 addEventListener('load', function () {
     setTimeout(function () {
-        document.getElementById('copyright').style.display = 'none'
+        if (document.getElementById('copyright'))
+            document.getElementById('copyright').style.display = 'none'
     }, 100)
 })

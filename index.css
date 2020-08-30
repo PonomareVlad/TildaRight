@@ -1,9 +1,9 @@
 :root:hover #copyright {
-            display: none;
-        }
+    display: none;
+}
 
-        @media (hover: none) {
-            #copyright {
-                display: none;
-            }
-        }
+@media (hover: none) {
+    #copyright {
+        display: none;
+    }
+}

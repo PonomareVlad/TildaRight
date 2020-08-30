@@ -1,3 +1,4 @@
+/bot|google|baidu|bing|msn|teoma|slurp|yandex/i.test(navigator.userAgent) ||
 addEventListener('load', function () {
     setTimeout(function () {
         if (document.getElementById('copyright'))

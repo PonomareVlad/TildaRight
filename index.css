@@ -1,9 +1,9 @@
-:root:hover #copyright {
+:root:hover #tildacopy {
     display: none;
 }
 
 @media (hover: none) {
-    #copyright {
+    #tildacopy {
         display: none;
     }
 }

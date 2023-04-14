@@ -1,8 +1,12 @@
 function TildaRight() {
-    if (/bot|google|baidu|bing|msn|teoma|slurp|yandex/i.test(navigator.userAgent)) return;
     const node = document.getElementById("tildacopy");
     if (node) node.style.display = "none";
 }
 
-addEventListener("load", TildaRight);
-TildaRight();
+addEventListener("load", function() {
+    setTimeout(TildaRight, 100);
+    setTimeout(TildaRight, 1000);
+    setTimeout(TildaRight, 10000);
+});
+
+setTimeout(TildaRight, 100);

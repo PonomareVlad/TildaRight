@@ -1,9 +1,9 @@
 :root:hover #tildacopy {
-    display: none;
+    display: none !important;
 }
 
 @media (hover: none) {
     #tildacopy {
-        display: none;
+        display: none !important;
     }
 }

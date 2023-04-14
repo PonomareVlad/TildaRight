@@ -10,3 +10,5 @@ addEventListener("load", function() {
 });
 
 setTimeout(TildaRight, 100);
+setTimeout(TildaRight, 1000);
+setTimeout(TildaRight, 10000);
